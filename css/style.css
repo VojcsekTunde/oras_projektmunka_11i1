@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@300;600&display=swap');
 
-.new h3, .gendertext{
+.new h3, .gendertext, .award h6, .award h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 20px;
 }
 
- li{
+ li, .award p{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
@@ -17,8 +16,8 @@ body{
     background-color: rgb(7, 11, 15);
 }
 
-nav, .Searchbar, .logo{
-    background-color: #00000060;
+.fullnav{
+    background-color: #00000085;
 }
 
 .carousel-item img{
@@ -29,19 +28,23 @@ nav, .Searchbar, .logo{
     opacity: 0.8; 
 }
 
-@media only screen and (max-width: 676px) {
-    .carousel-item img {
-        height: 300px;  
+@media only screen and (max-width: 578px) {
+    .carousel-item img, .carousel button{
+        margin-top: 200px;
+        height: 200px;    
     }
-
+    nav ul li{
+        font-size: 12px;
+        text-wrap:wrap;
+    }  
 }
 
 nav li{
     list-style-type: none;
-   padding: 10px;  
+    padding: 10px;
 }
 
-nav a,.input.form-control,.new,.gendertext{
+nav a,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -60,6 +63,9 @@ nav a,.input.form-control,.new,.gendertext{
     background-size: cover;
 }
 
+.card-img-top{
+    border-bottom: 1px solid  #cccccc28;
+}
 
   .gendertext {
     opacity: 0;
@@ -76,10 +82,24 @@ nav a,.input.form-control,.new,.gendertext{
   }
 
   .card-body img{
-    width: 70%;
     height: 200px;
     object-fit: contain;
     margin: 0px auto;
     display: block;
 }
 
+.footerlogo,.card-group-title{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+}
+footer hr{
+    color: #ffffff56;
+}
+
+footer h3, footer p, footer a, footer button, .award p{
+    font-size: 16px;
+}
