@@ -74,3 +74,12 @@ nav a,.input.form-control,.new,.gendertext{
     font-size: 20px;
     text-align: center;
   }
+
+  .card-body img{
+    width: 70%;
+    height: 200px;
+    object-fit: contain;
+    margin: 0px auto;
+    display: block;
+}
+
