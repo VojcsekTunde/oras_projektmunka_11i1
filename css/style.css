@@ -41,10 +41,12 @@ body{
 nav li{
     list-style-type: none;
     padding: 5px;
+    height: 50px;
+    
 }
 
 
-nav a,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a{
+a.nav-link,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a{
     text-decoration: none;
     color: #ffffff;
 }
