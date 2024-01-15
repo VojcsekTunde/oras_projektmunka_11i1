@@ -30,19 +30,19 @@ body{
 
 @media only screen and (max-width: 578px) {
     .carousel-item img, .carousel button{
-        margin-top: 200px;
+        margin-top: 60px;
         height: 200px;    
     }
-    nav ul li{
-        font-size: 12px;
-        text-wrap:wrap;
-    }  
+    .logo{
+        display: none;
+    }
 }
 
 nav li{
     list-style-type: none;
-    padding: 10px;
+    padding: 5px;
 }
+
 
 nav a,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a{
     text-decoration: none;

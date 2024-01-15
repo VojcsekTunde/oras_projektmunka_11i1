@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="row fixed-top fullnav">
-                <div class="col-sm-12 text-center col-md-2 col-lg-2 logo">
+        <div class="container-fluid ">
+            <div class="row fixed-top fullnav ">
+             <div class="col-sm-12 col-md-2 col-lg-2 logo d-none">
                     <a href="./index.html"> <img src="img/LOGO1.png" alt="LOGO" width="150px"> </a>
-                </div>
+                </div> 
 
-                <nav class="col-sm-12 col-md-10 col-lg-6 text-nowrap">
+                <nav class="col-sm-12 col-md-10 col-lg-6 text-nowrap d-none">
                     <ul class="d-flex mt-3 justify-content-center ps-0" >
                         <li> <a href="../index.html" title="Termékeink">Kezdőlap</a></li>
                         <li class="ms-auto"> <a href="../ForMen.html" title="Karóra férfiaknak">Férfi karóra</a></li>
@@ -24,13 +24,42 @@
                         <li class="ms-auto"> <a href="" title="Kapcsolatfelvétel">Elérhetőség</a></li>   
                     </ul>
                 </nav>
+        
 
-                    <div class="col-sm-12 col-md-12 col-lg-4 Searchbar">
+                    <div class="col-sm-12 col-md-12 col-lg-4 Searchbar d-none">
                         <div class="input-group mt-3 ms-auto">
                             <input class="form-control" type="search" placeholder="Keresés..." >
                             <span class="input-group-text"><i class="bi bi-search"></i></span>
                         </div>
                     </div>
+
+<!-- Hamburger menu proba ELEJE -->
+
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="n_bar">
+            <ul class="navbar-nav text-nowrap text-center">
+               <li> <a href="./index.html"> <img src="img/LOGO1.png" alt="LOGO" width="150px"> </a> </li>   
+                <li class="nav-item active"><a class="nav-link" href="../index.html">Kezdőlap</a></li>
+                <li class="nav-item"><a class="nav-link" href="../ForMen.html">Férfi karóra</a></li>
+                <li class="nav-item"><a class="nav-link" href="../ForWomen.html">Női karóra</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer-id">Elérhetőség</a></li>
+            </ul>
+            <div class="col-sm-12 col-md-12 col-lg-4 ms-auto Searchbar">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Keresés..." >
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Hamburger menu proba vÉGE -->
+
+
             </div>
         </div>
     </header>  
@@ -145,7 +174,7 @@
     </section>
 </main>
 
-    <footer>
+    <footer id="footer-id">
   
         <div class="container-fluid mt-5  px-sm-3 px-md-5">
             <div class="row pt-5  d-flex justify-content-center">
