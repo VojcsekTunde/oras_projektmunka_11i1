@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@300;600&display=swap');
 
-.new h3, .gendertext, .award h6, .award h1,.carousel h5{
+.new h3, .gendertext, .award h6, .award h1,.carousel h5,.category-title,.card-group-title{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -52,7 +52,7 @@ nav li{
     border: none;
 }
 
-a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a{
+a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title{
     text-decoration: none;
     color: #ffffff !important;
 }
@@ -84,7 +84,7 @@ a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-
     opacity: 1;
   }
   
-  .gendertext, .carousel h5{
+  .gendertext, .carousel h5,.watch-category i{
     font-size: 22px;
     text-align: center;
   }
@@ -96,7 +96,7 @@ a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-
     display: block;
 }
 
-.footerlogo,.card-group-title{
+.footerlogo,.watch-category h3{
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -110,4 +110,10 @@ footer hr{
 
 footer h3, footer p, footer a, footer button, .award p{
     font-size: 16px;
+}
+
+.watch-category i{
+    border-radius: 60px;
+    padding: 30px;
+    margin: 30px;
 }
