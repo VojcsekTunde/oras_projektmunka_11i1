@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@300;600&display=swap');
 
-.new h3, .gendertext, .award h6, .award h1{
+.new h3, .gendertext, .award h6, .award h1,.carousel h5{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
 }
 
- li, .award p{
+ li, .award p, .carousel-caption{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
@@ -17,7 +17,12 @@ body{
 }
 
 .fullnav{
-    background-color: #00000085;
+    background-color: #00000057;
+}
+
+.carousel h5{
+    padding: 20px;
+    padding-top: 0px;
 }
 
 .carousel-item img{
@@ -25,26 +30,27 @@ body{
     width: 100%;
     object-fit: cover;
     object-position: center;
-    opacity: 0.8; 
+    opacity: 0.5; 
 }
 
 @media only screen and (max-width: 578px) {
     .carousel-item img, .carousel button{
-        margin-top: 60px;
-        height: 200px;    
-    }
-    .logo{
-        display: none;
+        margin-top: 50px;
+        height: 400px;   
     }
 }
-
 nav li{
     list-style-type: none;
     padding: 5px;
     height: 50px;
-    
 }
 
+.navbar-toggler{
+    background-color: #ffffff88;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
 
 a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a{
     text-decoration: none;
@@ -78,8 +84,8 @@ a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-
     opacity: 1;
   }
   
-  .gendertext {
-    font-size: 20px;
+  .gendertext, .carousel h5{
+    font-size: 22px;
     text-align: center;
   }
 
@@ -104,10 +110,4 @@ footer hr{
 
 footer h3, footer p, footer a, footer button, .award p{
     font-size: 16px;
-}
-
-.navbar-toggler-icon{
-    background-color: #ffffffa1;
-    border-radius: 10px;
-    padding: 20px;
 }
