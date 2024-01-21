@@ -6,7 +6,7 @@
     text-transform: uppercase;
 }
 
- li, .award p, .carousel-caption{
+ li, .award p, .carousel-caption, .full-category p{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
@@ -52,7 +52,7 @@ nav li{
     border: none;
 }
 
-a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title{
+a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p{
     text-decoration: none;
     color: #ffffff !important;
 }
@@ -84,7 +84,7 @@ a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-
     opacity: 1;
   }
   
-  .gendertext, .carousel h5,.watch-category i{
+  .gendertext, .carousel h5,.full-category i{
     font-size: 22px;
     text-align: center;
   }
@@ -112,8 +112,10 @@ footer h3, footer p, footer a, footer button, .award p{
     font-size: 16px;
 }
 
-.watch-category i{
+.full-category i,.focus-ring-info {
     border-radius: 60px;
-    padding: 30px;
-    margin: 30px;
+}
+
+.full-category p{
+    padding-top: 30px;
 }
