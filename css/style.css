@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@300;600&display=swap');
 
-.new h3, .gendertext, .award h6, .award h1,.carousel h5,.category-title,.card-group-title{
+.new h3, .ad h3,.gendertext, .award h6, .award h1,.carousel h5,.category-title,.card-group-title{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -17,7 +17,7 @@ body{
 }
 
 .fullnav{
-    background-color: #00000057;
+    background-color: #000000b6;
 }
 
 .carousel h5{
@@ -52,7 +52,7 @@ nav li{
     border: none;
 }
 
-a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p{
+a.nav-link,a.nav-link.active,.input.form-control,.new,.ad,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p{
     text-decoration: none;
     color: #ffffff !important;
 }
@@ -63,12 +63,21 @@ a.nav-link,a.nav-link.active,.input.form-control,.new,.gendertext, .award,.card-
     opacity: 1;
 }
 
-.new{
-    background-image: url(../img/omega1.png) ;
+.new, .ad{
     background-position: center center;
-    padding: 50px 0px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.new{
+    background-image: url(../img/omega1.png) ;
+    padding: 50px 0px;
+}
+
+.ad{
+    background-image: url(../img/ad2.jpg);
+    padding: 100px 0px;
+
 }
 
 .card-img-top{
