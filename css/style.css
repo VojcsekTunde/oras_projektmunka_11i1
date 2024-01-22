@@ -6,7 +6,7 @@
     text-transform: uppercase;
 }
 
- li, .award p, .carousel-caption, .full-category p{
+ li, .award p, .carousel-caption, .full-category p, .product-text{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
@@ -52,7 +52,7 @@ nav li{
     border: none;
 }
 
-a.nav-link,a.nav-link.active,.input.form-control,.new,.ad,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p{
+a.nav-link,a.nav-link.active,.input.form-control,.new,.ad,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p, .product-text{
     text-decoration: none;
     color: #ffffff !important;
 }
@@ -118,7 +118,7 @@ footer hr{
 }
 
 footer h3, footer p, footer a, footer button, .award p{
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .full-category i,.focus-ring-info {
@@ -128,3 +128,30 @@ footer h3, footer p, footer a, footer button, .award p{
 .full-category p{
     padding-top: 30px;
 }
+.colors span{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid  #ffffff67;
+} 
+
+.color-silver{
+    background: linear-gradient(130deg, rgb(168, 167, 167) 50%, rgb(255, 255, 255));
+}
+
+.color-golden{
+    background: linear-gradient(130deg, rgb(194, 150, 5) 50%, rgb(255, 255, 255));
+}
+.color-black{
+    background: linear-gradient(130deg, rgb(0, 0, 0) 50%, rgb(143, 143, 143));
+}
+.color-blue{
+    background: linear-gradient(130deg, rgb(0, 60, 255) 50%, rgb(112, 155, 235));
+}
+.bi-suit-heart:hover{
+    display: none !important;
+ }
+ .bi-suit-heart-fill:hover{
+    display: block !important;
+ } 
