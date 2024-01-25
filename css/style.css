@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@300;600&display=swap');
 
-.new h3, .ad h3,.gendertext, .award h6, .award h1,.carousel h5,.category-title,.card-group-title{
+.new h3, .ad h3,.gendertext, .award h6, .award h1,.carousel h5,.category-title,.card-group-title,.product-appearance {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
 }
 
- li, .award p, .carousel-caption, .full-category p, .product-text{
+ li, .award p, .carousel-caption, .full-category p, .product,.modal-content{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
@@ -52,12 +52,12 @@ nav li{
     border: none;
 }
 
-a.nav-link,a.nav-link.active,.input.form-control,.new,.ad,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p, .product-text{
+a.nav-link,a.nav-link.active,.input.form-control,.new,.ad,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p, .product{
     text-decoration: none;
     color: #ffffff !important;
 }
 
-.category img{
+.category img, .product-appearance img{
     box-shadow: 0px 0px 12px 20px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     opacity: 1;
@@ -137,21 +137,30 @@ footer h3, footer p, footer a, footer button, .award p{
 } 
 
 .color-silver{
-    background: linear-gradient(130deg, rgb(168, 167, 167) 50%, rgb(255, 255, 255));
+    background: linear-gradient(130deg, rgb(119, 116, 116) 50%, rgb(255, 255, 255));
 }
 
 .color-golden{
-    background: linear-gradient(130deg, rgb(194, 150, 5) 50%, rgb(255, 255, 255));
+    background: linear-gradient(130deg, rgb(202, 145, 40) 50%, rgb(255, 255, 255));
 }
 .color-black{
     background: linear-gradient(130deg, rgb(0, 0, 0) 50%, rgb(143, 143, 143));
 }
 .color-blue{
-    background: linear-gradient(130deg, rgb(0, 60, 255) 50%, rgb(112, 155, 235));
+    background: linear-gradient(130deg, rgb(4, 31, 119) 50%, rgb(135, 160, 211));
 }
-.bi-suit-heart:hover{
-    display: none !important;
- }
- .bi-suit-heart-fill:hover{
-    display: block !important;
- } 
+
+.product i:hover{
+    color: rgba(255, 65, 65, 0.637);
+}
+
+.product-appearance img{
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.modal-content{
+    color: rgb(0, 0, 0);
+}
