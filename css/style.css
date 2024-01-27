@@ -11,7 +11,7 @@
     font-weight: 400;
 }
 
-body{
+body,  .table>:not(caption)>*>*{
     font-size: 18px;
     background-color: rgb(7, 11, 15);
 }
@@ -20,7 +20,7 @@ body{
     background-color: #000000b6;
 }
 
-.carousel h5,.product-appearance img {
+.carousel h5,.product-appearance img, .table>:not(caption)>*>* {
     padding: 20px;
 }
 
@@ -28,11 +28,11 @@ body{
     margin-top: 30px;
 }
 
-footer h4,.full-category p{
+footer h4,.full-category p,.card-group-title{
     padding-top: 30px;
 }
 
-.card, .product-appearance img {
+.card, .product-appearance img{
     margin: 20px;
 }
 
@@ -162,6 +162,10 @@ footer h3, footer p, footer a, footer button, .award p{
     background: linear-gradient(130deg, rgb(4, 31, 119) 50%, rgb(135, 160, 211));
 }
 
+.color-rose-gold{
+    background: linear-gradient(130deg, rgb(212, 136, 113) 50%, rgb(255, 255, 255));
+}
+
 .product i:hover{
     color: rgba(255, 65, 65, 0.637);
 }
@@ -174,3 +178,7 @@ footer h3, footer p, footer a, footer button, .award p{
 .modal-content{
     color: rgb(0, 0, 0);
 }
+.card-img-top{
+    width:100%;
+    height:auto 0px;
+  }
