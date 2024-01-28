@@ -64,7 +64,6 @@ nav li{
     background-color: #ffffff88;
     padding: 10px;
     border-radius: 10px;
-    border: none;
 }
 
 a.nav-link,a.nav-link.active,.input.form-control,.new,.ad,.gendertext, .award,.card-group-title, footer, footer a.text-white,.info, .info a,.category-title,.full-category p, .product{
@@ -182,3 +181,7 @@ footer h3, footer p, footer a, footer button, .award p{
     width:100%;
     height:auto 0px;
   }
+
+.card-footer,.navbar-toggler{
+    border: none;
+}
