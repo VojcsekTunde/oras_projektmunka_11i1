@@ -135,7 +135,7 @@ footer h3, footer p, footer a, footer button, .award p{
     font-size: 16px !important;
 }
 
-.full-category i,.focus-ring-info {
+.full-category i,.focus-ring-info{
     border-radius: 60px;
 }
 
@@ -177,9 +177,9 @@ footer h3, footer p, footer a, footer button, .award p{
 .modal-content{
     color: rgb(0, 0, 0);
 }
-.card-img-top{
-    width:100%;
-    height:auto 0px;
+.card-img-top, .card-group{
+    width: 100%;
+    height: auto 0px;
   }
 
 .card-footer,.navbar-toggler{
